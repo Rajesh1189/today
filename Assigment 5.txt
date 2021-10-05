@@ -1,0 +1,7 @@
+#!/bin/bash
+SPACE=`df -h . | tail -1 | awk -F " " '{print $(NF-1)}' | sed 's/%//g'`
+if[ $SPACE -ge 30];
+echo " DISK SPACE IS MORE THAN 90% "
+else
+echo " DISK SPACE IS LESS THAN 90 "
+fi

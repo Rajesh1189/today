@@ -1,0 +1,9 @@
+#!/bin/bash
+NUM=$1
+FACT=1
+while [ $NUM -gt 1 ];
+do
+FACT=`expr $FACT \* $NUM`
+NUM=`expr $NUM - 1`
+done
+echo " FACTORIAL OF $1 IS $FACT "
