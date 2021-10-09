@@ -1,0 +1,44 @@
+ls -List of all files directories in PWD
+PWD- Present working directory
+cd- Change Directory
+clear-clear the screen
+mkdir-to create new directory
+touch -to create new file
+ll -long list with more info
+ls -l -long list of files and directories
+ls -lt - long list format with recently created file on top
+ls -lrt - long list with reverse time
+ls *.txt- list all the files with the perticular format
+rm - remove or delete file
+rm -rf- delete directory
+vi file name - to edit file
+shift+I - to insert in file
+esc ;wq! - save and quit
+echo - to print
+cat file name -content of file
+wc -l - counts the line in file
+wc -w -counts the words in file
+wc -c - counts the character in file
+history - list the history of commands excuted
+> - it use to write output of command to a file if file alredy exist it will overwrite in it
+>> - instated of over wirting it will add to next line\
+free - Used to check the RAM memory, -m for MB and -g for GB
+df -h - to check the Disk space
+du -sh*- displays size for both files and directries 
+du sh directory name- Disk usgage for perticular directory
+touch file{1..5}.txt - to crate multiple files at once
+head -n file name -used to display n line of files
+tail -n file name - used to display last n line of file
+| - it is used to make the input from the output of other command
+Grep - it is a Pattern serach , it searches the specfic line in a file
+cp - to copy
+sed -Stream editor, it is used to edit the file without opening it
+awk - it is used to cut content of a file column wise and row wise
+find - used to find the location of a file or directory
+rm - used to remove perticular file or directory
+ln -s file name softlink name -To create soft link
+ln filename hardlink- to create hard link
+Umask - used to set default permission
+whoami - used to check the current user
+kill - used to stop process
+sort - used to sort the data
